@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on RecList</title>
+    <link>/talks/</link>
+    <description>Recent content in Talks on RecList</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Nov 2018 12:33:46 +1000</lastBuildDate><atom:link href="/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MLOps Podcast</title>
+      <link>/talks/mlops/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>/talks/mlops/</guid>
+      <description>MLOps Podcast</description>
+    </item>
+    
+    <item>
+      <title>ECIR Conference</title>
+      <link>/talks/ecir/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>/talks/ecir/</guid>
+      <description>ECIR Conference</description>
+    </item>
+    
+    <item>
+      <title>Stitch Fix Algo Hour</title>
+      <link>/talks/stitchfix/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>/talks/stitchfix/</guid>
+      <description>Stitch Fix Algo Hour</description>
+    </item>
+    
+  </channel>
+</rss>
