@@ -196,7 +196,7 @@
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
           
-          <div class="feature-image"><a href="https://www.comet.ml/site/"  target="blank"><img width="100" height="100" alt=" logo" src="/images/sponsors/comet.png" /></a></div>
+          <div class="feature-image"><a onclick="captureOutboundLink(&#34;https://www.comet.ml/site/&#34;); return false;" href="https://www.comet.ml/site/"  target="blank"><img width="100" height="100" alt=" logo" src="/images/sponsors/comet.png" /></a></div>
           
           <h2 class="feature-title"><a href="https://www.comet.ml/site/"  target="blank">Comet</a></h2>
           <div class="feature-content">
@@ -208,7 +208,7 @@
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
           
-          <div class="feature-image"><a href="https://neptune.ai/"  target="blank"><img width="100" height="100" alt=" logo" src="/images/sponsors/neptune.png" /></a></div>
+          <div class="feature-image"><a onclick="captureOutboundLink(&#34;https://neptune.ai/&#34;); return false;" href="https://neptune.ai/"  target="blank"><img width="100" height="100" alt=" logo" src="/images/sponsors/neptune.png" /></a></div>
           
           <h2 class="feature-title"><a href="https://neptune.ai/"  target="blank">Neptune AI</a></h2>
           <div class="feature-content">
@@ -220,7 +220,7 @@
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
           
-          <div class="feature-image"><a href=""  target="blank"><img width="100" height="100" alt=" logo" src="/images/sponsors/stealth.jpeg" /></a></div>
+          <div class="feature-image"><a onclick="captureOutboundLink(&#34;&#34;); return false;" href=""  target="blank"><img width="100" height="100" alt=" logo" src="/images/sponsors/stealth.jpeg" /></a></div>
           
           <h2 class="feature-title"><a href=""  target="blank">Coming Soon</a></h2>
           <div class="feature-content">
@@ -313,6 +313,14 @@
   }
   gtag('js', new Date());
   gtag('config', 'G-GKC969S05Z');
+
+  var captureOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+
 </script>
 
 
