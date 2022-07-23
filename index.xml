@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homepage on RecList</title>
-    <link>/</link>
+    <link>https://reclist.io/</link>
     <description>Recent content in Homepage on RecList</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Nov 2018 12:33:46 +1000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Nov 2018 12:33:46 +1000</lastBuildDate><atom:link href="https://reclist.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MLOps Podcast</title>
-      <link>/talks/mlops/</link>
+      <link>https://reclist.io/talks/mlops/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>/talks/mlops/</guid>
+      <guid>https://reclist.io/talks/mlops/</guid>
       <description>MLOps Podcast</description>
     </item>
     
     <item>
       <title>ECIR Conference</title>
-      <link>/talks/ecir/</link>
+      <link>https://reclist.io/talks/ecir/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>/talks/ecir/</guid>
+      <guid>https://reclist.io/talks/ecir/</guid>
       <description>ECIR Conference</description>
     </item>
     
     <item>
       <title>Stitch Fix Algo Hour</title>
-      <link>/talks/stitchfix/</link>
+      <link>https://reclist.io/talks/stitchfix/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>/talks/stitchfix/</guid>
+      <guid>https://reclist.io/talks/stitchfix/</guid>
       <description>Stitch Fix Algo Hour</description>
     </item>
     
